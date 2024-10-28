@@ -1,0 +1,32 @@
+.home_make{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+
+    width: 70%;
+}
+.header{
+    margin-left: 10px;
+    float: left;
+    color: crimson;
+    width: 20%;
+    font-weight: 900;
+    font-size: 28px;
+}
+.search{
+    width: 100%;
+}
+.search input{
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.search button{
+    border: none;
+    background: crimson;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-left: 10px;
+    padding: 5px;
+    width: 70px;
+}
