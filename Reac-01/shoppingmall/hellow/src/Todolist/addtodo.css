@@ -1,0 +1,35 @@
+.add_form{
+    font-weight: 900;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+   
+    width: 100%;
+    height: 100%;
+
+   
+}
+.add_input{
+    margin-right: 10px;
+    
+    font-size: 24px;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.add_btn{
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+   color: rgb(60, 118, 60);
+    padding: 1%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.add_btn:hover{
+    background-color: rgb(60, 118, 60);
+    color: black;
+}

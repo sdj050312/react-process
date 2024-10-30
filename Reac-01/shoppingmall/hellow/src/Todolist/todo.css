@@ -1,0 +1,43 @@
+.chart-bx{
+    align-items: center;
+    display: flex;
+    
+    padding: 0.5rem 1rem;
+    margin: 0.1rem 0;
+    justify-content: space-between;
+
+}
+
+.checkbx{
+   
+    display: none;
+}
+.icon-lable{
+   font-size: 20px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.lable_box{
+    font-size: 20px;
+    font-weight: 900;
+    flex:1 1 0%;
+    margin-left: 10%;
+}
+.delete-btn{
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 900;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(145, 210, 145);
+    border: none;
+    font-size: 20px;  
+}
+.delete-btn:hover{
+    background-color: rgb(145, 210, 145);
+    color: rgb(17, 37, 17);
+}
+input[type ="checkbox"]:checked + label{
+    color: rgb(145, 210, 145);
+}
